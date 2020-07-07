@@ -39,6 +39,10 @@ public class SalesmanService {
         return entityManager.createQuery("SELECT sm FROM Salesman sm WHERE sm.isManager='true'",Salesman.class).getResultList();
     }
 
+    public List<Salesman> listOfSalaries(int min,int max){
+        return entityManager.createQuery("SELECT sm FROM Salesman sm WHERE sm.salary >:min AND sm.salary<:max ",Salesman.class).setParameter("min",min).setParameter("max",max).getResultList();
+    }
+
     public List<Salesman> salesmenList (){
         return  entityManager.createQuery("SELECT sm FROM Salesman sm",Salesman.class).getResultList();
     }

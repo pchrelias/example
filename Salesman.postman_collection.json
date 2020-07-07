@@ -51,6 +51,18 @@
 				"description": "Find by id "
 			},
 			"response": []
+		},
+		{
+			"name": "localhost:8080/hello-todo/api/v1/salesman/100/600",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Something like filter min/max"
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}

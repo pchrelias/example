@@ -51,6 +51,13 @@ public class SalesmanRest {
         return salesmanService.listOfManagers();
     }
 
+    @Path("{min}/{max}")
+    @GET
+    public List<Salesman> salaryList(@PathParam("min")int min,@PathParam("max")int max){
+
+        return salesmanService.listOfSalaries(min,max);
+    }
+
 
     //auto create salesman
     @Path("auto")
