@@ -51,6 +51,8 @@ public class SalesmanRest {
         return salesmanService.listOfManagers();
     }
 
+
+    //auto create salesman
     @Path("auto")
     @GET
     public Response autoCreate(){
