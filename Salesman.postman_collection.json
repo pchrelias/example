@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "ff69ee69-fc74-4ffb-a277-ba94c186723a",
+		"name": "Salesman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/hello-todo/api/v1/salesman/auto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Make a new Salesman"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/hello-todo/api/v1/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/hello-todo/api/v1/managers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Show only the managers"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/hello-todo/api/v1/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Find by id "
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
